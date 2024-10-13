@@ -11,8 +11,7 @@ An Express.js project using MongoDB, Mongoose and TypeScript with Zod validation
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/imoncoc/sports-facility-booking-platform-backend.git
-   cd assignment-3
+   git clone 
    ```
 
 2. **Install Dependencies**
@@ -41,4 +40,4 @@ The application will run on `http://localhost:5000`.
 
 ### Set up VERCEL live link
 
-- **Endpoint**: **`https://forkify-v6-server.vercel.app/api/v6`**
+- **Endpoint**: **``**
