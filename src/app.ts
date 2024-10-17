@@ -17,7 +17,7 @@ app.use(
   cors({
     origin: [
       'http://localhost:3000',
-      'https://forkify-gamma-sand.vercel.app/',
+      'https://flavor-fusion-ass6.vercel.app/',
       'http://localhost:5173',
     ],
     credentials: true,

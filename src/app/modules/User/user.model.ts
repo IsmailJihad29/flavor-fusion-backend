@@ -3,7 +3,6 @@ import { TUser, UserModel } from './user.interface';
 import validator from 'validator';
 import bcrypt from 'bcrypt';
 import config from '../../config';
-import { boolean } from 'joi';
 
 const userSchema = new Schema<TUser, UserModel>(
   {

@@ -10,11 +10,6 @@ const router = express.Router();
 
 router.post(
   '/signup',
-  // multerUpload.single('image'),
-  // (req: Request, res: Response, next: NextFunction) => {
-  //   req.body.data = JSON.parse(req.body.data);
-  //   next();
-  // },
   validateRequest(userValidation.createUserValidationSchema),
   UserControllers.createUser,
 );
@@ -22,11 +17,6 @@ router.post(
 router.patch(
   `/user/:userId`,
   multerUpload.single('image'),
-  // (req: Request, res: Response, next: NextFunction) => {
-  //   req.body.data = JSON.parse(req.body.data);
-  //   next();
-  // },
-  // validateRequest(userValidation.createUserValidationSchema),
   UserControllers.updateUser,
 );
 
